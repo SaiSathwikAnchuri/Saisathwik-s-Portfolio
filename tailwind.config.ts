@@ -61,7 +61,49 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Original portfolio colors
+				'dark-navy': 'hsl(var(--dark-navy))',
+				'navy': 'hsl(var(--navy))',
+				'light-navy': 'hsl(var(--light-navy))',
+				'lightest-navy': 'hsl(var(--lightest-navy))',
+				'dark-slate': 'hsl(var(--dark-slate))',
+				'slate': 'hsl(var(--slate))',
+				'light-slate': 'hsl(var(--light-slate))',
+				'lightest-slate': 'hsl(var(--lightest-slate))',
+				'portfolio-white': 'hsl(var(--white))',
+				'green': 'hsl(var(--green))',
+				'green-tint': 'hsl(var(--green-tint))',
+				'pink': 'hsl(var(--pink))',
+				'blue': 'hsl(var(--blue))'
+			},
+			fontFamily: {
+				'sans': 'var(--font-sans)',
+				'mono': 'var(--font-mono)'
+			},
+			fontSize: {
+				'xxs': 'var(--fz-xxs)',
+				'xs': 'var(--fz-xs)',
+				'sm': 'var(--fz-sm)',
+				'md': 'var(--fz-md)',
+				'lg': 'var(--fz-lg)',
+				'xl': 'var(--fz-xl)',
+				'xxl': 'var(--fz-xxl)',
+				'heading': 'var(--fz-heading)'
+			},
+			spacing: {
+				'nav': 'var(--nav-height)'
+			},
+			transitionTimingFunction: {
+				'portfolio': 'cubic-bezier(0.645, 0.045, 0.355, 1)'
+			},
+			boxShadow: {
+				'elegant': 'var(--shadow-elegant)',
+				'glow': 'var(--shadow-glow)'
+			},
+			backgroundImage: {
+				'gradient-navy': 'var(--gradient-navy)',
+				'gradient-green': 'var(--gradient-green)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +126,44 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-up': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'fade-down': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(-20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'slide-up': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(30px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-up': 'fade-up 0.6s ease-out',
+				'fade-down': 'fade-down 0.6s ease-out',
+				'slide-up': 'slide-up 0.8s ease-out'
 			}
 		}
 	},
