@@ -32,7 +32,7 @@ const Hero = () => {
         </p>
         
         <div 
-          className="animate-fade-up"
+          className="animate-fade-up flex gap-4"
           style={{ animationDelay: '500ms' }}
         >
           <Button 
@@ -41,6 +41,13 @@ const Hero = () => {
             className="border-green text-green hover:bg-green-tint hover:text-green font-mono px-8 py-4 text-sm"
           >
             Check out my work!
+          </Button>
+          <Button 
+            variant="ghost" 
+            size="lg"
+            className="text-green hover:bg-green-tint hover:text-green font-mono px-8 py-4 text-sm"
+          >
+            Download Resume
           </Button>
         </div>
       </div>
