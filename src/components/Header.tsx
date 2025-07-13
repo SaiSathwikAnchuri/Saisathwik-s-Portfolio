@@ -58,9 +58,14 @@ const Header = () => {
               <span className="text-green text-xs">0{index + 1}.</span> {item.name}
             </a>
           ))}
-          <Button variant="outline" className="ml-4 border-green text-green hover:bg-green-tint">
-            Resume
-          </Button>
+          <Button 
+  variant="outline" 
+  className="ml-4 border-green text-green hover:bg-green-tint"
+  onClick={() => window.location.href = "/saisathwik's-resume.pdf"}
+>
+  Resume
+</Button>
+
         </nav>
 
         {/* Mobile menu button */}
