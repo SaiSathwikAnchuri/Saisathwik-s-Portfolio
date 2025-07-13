@@ -40,13 +40,14 @@ My knowledge of DSA helps me write optimized and high-performance code, while my
             
           </Button>
           <Button 
-            variant="ghost" 
-            size="lg"
-            className="text-green hover:bg-green-tint hover:text-green font-mono px-8 py-4 text-sm" // it should redirect to work section
-            
-          >
-            Coding Profiles
-          </Button>
+  variant="ghost" 
+  size="lg"
+  className="text-green hover:bg-green-tint hover:text-green font-mono px-8 py-4 text-sm"
+  onClick={() => window.location.href = 'https://linktr.ee/Saisathwik1414'}
+>
+  Coding Profiles
+</Button>
+
         </div>
       </div>
     </section>

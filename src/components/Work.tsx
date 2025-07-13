@@ -77,7 +77,7 @@ const certifications = [
     title: 'Webathon 2024',
     description: 'Participated in Webathon 2024, a hackathon focused on web development, showcasing skills in building innovative web applications.',
     organization: 'Webathon ACM VNRVJIET',
-    date: 'March 2024',
+    date: 'April 2024',
     certificateUrl: 'https://drive.google.com/file/d/1jblJJJ-sC8X5vm1Bwf6iwtiKElk8flEU/view?usp=drivesdk'
   }
 ];
