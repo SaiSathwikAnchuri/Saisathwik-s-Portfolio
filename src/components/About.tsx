@@ -11,9 +11,13 @@ const About = () => {
     'Python',
     'MongoDB',
     'PostgreSQL',
-    'AWS',
-    'Docker',
-    'Kubernetes'
+    'ADobe XD',
+    'Photoshop',
+    'Figma',
+    'Java',
+    'Git',
+    'GitHub',
+    'SQL'
   ];
 
   return (
@@ -24,10 +28,7 @@ const About = () => {
         <div className="lg:col-span-2">
           <div className="space-y-4 text-slate">
             <p>
-              Hello! My name is Nilanjan and I enjoy creating things that live on the internet. 
-              My interest in web development started back in 2019 when I decided to try editing 
-              custom Tumblr themes — turns out hacking together a custom reblog button taught me 
-              a lot about HTML & CSS!
+              I'm a passionate full-stack developer in creating innovative web applications. My journey began with a curiosity about how websites work, and it has evolved into a deep love for crafting digital experiences that make a difference. I specialize in modern JavaScript frameworks, particularly React and Node.js, and I'm always excited to learn new technologies.
             </p>
             
             <p>
@@ -35,15 +36,11 @@ const About = () => {
               <a href="#" className="inline-link">an advertising agency</a>,{' '}
               <a href="#" className="inline-link">a start-up</a>,{' '}
               <a href="#" className="inline-link">a huge corporation</a>, and{' '}
-              <a href="#" className="inline-link">a student-led design studio</a>. 
               My main focus these days is building accessible, inclusive products and 
               digital experiences for a variety of clients.
             </p>
             
             <p>
-              I also recently{' '}
-              <a href="#" className="inline-link">launched a course</a> that covers 
-              everything you need to build a web app with the Spotify API using Node & React.
             </p>
             
             <p>Here are a few technologies I've been working with recently:</p>
@@ -70,8 +67,8 @@ const About = () => {
                   }`}
                 />
                 <img
-                  src="/api/placeholder/300/300"
-                  alt="Nilanjan Mitra"
+                  src='/3.jpg'
+                  alt='Saisathwik Anchuri'
                   className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${
                     imageLoaded ? 'opacity-100' : 'opacity-0'
                   }`}

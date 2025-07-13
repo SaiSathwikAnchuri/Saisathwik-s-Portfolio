@@ -42,7 +42,7 @@ const Header = () => {
         {/* Logo */}
         <div className="flex-shrink-0">
           <a href="/" className="text-green font-mono text-xl font-semibold">
-            NM
+            SAISATHWIK
           </a>
         </div>
 

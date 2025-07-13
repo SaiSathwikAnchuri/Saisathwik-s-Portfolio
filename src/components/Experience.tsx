@@ -6,47 +6,24 @@ const Experience = () => {
 
   const experiences = [
     {
-      company: 'Upstatement',
-      position: 'Engineer',
-      period: 'May 2018 - Present',
-      url: 'https://upstatement.com/',
+      company: 'Swecha AI',
+      position: 'Intern',
+      period: 'May 2025 - Present',
+      url: 'https://drive.google.com/file/d/19CilHwHDGY1CoXd-WuRKqQUm219WdNg4/view?usp=drivesdk',
       details: [
-        'Write modern, performant, maintainable code for a diverse array of client and internal projects',
-        'Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify',
+        'As a mentor, I guide students in building AI applications using OpenAI APIs, focusing on practical implementation and real-world applications.',
+        'help students understand the nuances of AI development, from concept to deployment.',
         'Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis'
       ]
-    },
-    {
-      company: 'MullenLowe',
-      position: 'Creative Technologist',
-      period: 'July 2017 - May 2018',
-      url: 'https://us.mullenlowe.com/',
+    },{
+      company: 'Freelancer',
+      position: 'Freelance Developer',
+      period: 'January 2025-present',
+      url: '',
       details: [
-        'Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery',
-        'Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness',
-        'Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more'
-      ]
-    },
-    {
-      company: 'Starry',
-      position: 'Software Engineer Co-op',
-      period: 'December 2016 - June 2017',
-      url: 'https://starry.com/',
-      details: [
-        'Engineered and maintained major features of Starry\'s customer-facing web app using ES6, Handlebars, Backbone, Marionette and CSS',
-        'Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with existing databases',
-        'Interfaced with user experience designers and other developers to ensure thoughtful and coherent user experiences across Starry\'s iOS and Android mobile apps'
-      ]
-    },
-    {
-      company: 'Scout Studio',
-      position: 'Developer',
-      period: 'January 2015 - December 2016',
-      url: 'https://scout-studio.com/',
-      details: [
-        'Developed and shipped highly interactive web applications for Fortune 500 companies like MassMutual',
-        'Built custom online travel booking applications for JetBlue using modern web technologies',
-        'Worked alongside a small team of designers and developers to build beautiful, functional websites and applications'
+        'have been working as a freelance developer, focusing on building web applications and providing software solutions for various clients.',
+        'specialize in creating custom web applications, integrating APIs, and ensuring responsive design across devices.',
+        'these projects have allowed me to enhance my skills in full-stack development, particularly with React and Node.js.'
       ]
     }
   ];
@@ -110,5 +87,4 @@ const Experience = () => {
     </section>
   );
 };
-
 export default Experience;

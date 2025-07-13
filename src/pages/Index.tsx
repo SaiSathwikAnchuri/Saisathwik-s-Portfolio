@@ -12,12 +12,10 @@ const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate loading
     const timer = setTimeout(() => {
       setIsLoading(false);
       document.body.classList.remove('hidden');
     }, 1000);
-
     return () => clearTimeout(timer);
   }, []);
 
@@ -39,8 +37,8 @@ const Index = () => {
         <Work />
         <Contact />
       </main>
-      <SocialLinks />
-      <Footer />
+      <SocialLinks /> {/* ⬅️ Now outside <main> */}
+      <Footer />       {/* ⬅️ Now outside <main> */}
     </div>
   );
 };
