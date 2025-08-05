@@ -1,0 +1,97 @@
+.intercom-lightweight-app,
+.intercom-app {
+  display: none;
+}
+
+/* Overriding a global style being set by the monolith */
+body.refreshed-ia {
+  padding-bottom: 0px !important;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 1.5s infinite;
+}
+
+@property --rotation {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 280deg;
+}
+
+.card-effect::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: conic-gradient(from var(--rotation), transparent 0, #adbbff 20%, transparent 25%);
+
+  animation:
+    5s linear 0s infinite shiny,
+    5s linear 0s infinite hide;
+}
+
+@keyframes shiny {
+  0% {
+    --rotation: 280deg;
+  }
+  60% {
+    --rotation: 640deg;
+  }
+  100% {
+    --rotation: 640deg;
+  }
+}
+
+@keyframes hide {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fIG3W4XhJDjGp5c8ON9I {
+  background: linear-gradient(90deg, #43e660 0%, #fff 40%, #43e660 80%);
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: Wbp2JmwU34tJfJ_ZrtmS 5s infinite linear;
+
+  &:hover {
+    background: var(--lt-canopy);
+    color: var(--lt-shade);
+  }
+}
+
+@keyframes Wbp2JmwU34tJfJ_ZrtmS {
+  0% {
+    background-position: 100% 0;
+  }
+  60% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
