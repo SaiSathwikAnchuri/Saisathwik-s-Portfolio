@@ -61,7 +61,7 @@ const Header = () => {
           <Button 
   variant="outline" 
   className="ml-4 border-green text-green hover:bg-green-tint"
-  onClick={() => window.location.href = "/saisathwik-resume-final-01.pdf"}
+  onClick={() => window.location.href = "/atlan-frontend-resume.pdf"}
 >
   Resume
 </Button>

@@ -6,23 +6,23 @@ const Experience = () => {
 
   const experiences = [
     {
-      company: 'Swecha AI',
+      company: 'Full stack Development Intern @ Ikipendence',
       position: 'Intern',
-      period: 'May 2025 - Present',
-      url: 'https://drive.google.com/file/d/19CilHwHDGY1CoXd-WuRKqQUm219WdNg4/view?usp=drivesdk',
+      period: 'August 2025 - Present',
+      url: 'https://www.ikipendence.com/',
       details: [
-        'As a mentor, I guide students in building AI applications using OpenAI APIs, focusing on practical implementation and real-world applications.',
-        'help students understand the nuances of AI development, from concept to deployment.',
-        'Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis'
+        'Building and maintaining full-stack web applications using React.js, Node.js, Express, and MongoDB.',
+        'Enhanced UI/UX responsiveness and accessibility, improving cross-device performance',
+        'Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis.'
       ]
     },{
-      company: 'Freelancer',
-      position: 'Freelance Developer',
-      period: 'January 2025-present',
+      company: 'Open Source Contributor @ GirlScript Summer of Code (GSSOC)',
+      position: ' Developer',
+      period: 'July 2025-present',
       url: '',
       details: [
-        'have been working as a freelance developer, focusing on building web applications and providing software solutions for various clients.',
-        'specialize in creating custom web applications, integrating APIs, and ensuring responsive design across devices.',
+        'Contributing to multiple open-source projects, taking ownership of feature development, bug fixes, and documentation improvements.',
+        'Applied a strong problem-solving mindset to debug complex issues, optimize API integrations, and improve component reusability.',
         'these projects have allowed me to enhance my skills in full-stack development, particularly with React and Node.js.'
       ]
     }
