@@ -1,0 +1,28 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#050505"/>
+  <rect y="0" width="1600" height="92" fill="#030303" stroke="#202020"/>
+  <rect x="28" y="28" width="26" height="26" rx="6" fill="#FFFFFF"/>
+  <text x="74" y="58" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="800">Growth Automation</text>
+  <rect x="1404" y="22" width="110" height="50" rx="25" fill="#FFFFFF"/>
+  <text x="1436" y="55" fill="#0A0A0A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">Sign in</text>
+  <rect x="615" y="198" width="370" height="46" rx="23" fill="#111111" stroke="#2A2A2A"/>
+  <circle cx="646" cy="221" r="7" fill="#10B981"/>
+  <text x="668" y="228" fill="#D4D4D8" font-family="Inter, Arial, sans-serif" font-size="20">AI-powered B2B lead pipeline</text>
+  <text x="345" y="350" fill="#FAFAFA" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="900">Catch buying intent the</text>
+  <text x="286" y="428" fill="#FAFAFA" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="900">moment it's posted online.</text>
+  <text x="408" y="520" fill="#C4C8D4" font-family="Inter, Arial, sans-serif" font-size="27">Growth Automation watches Reddit and Hacker News for people asking for</text>
+  <text x="472" y="558" fill="#C4C8D4" font-family="Inter, Arial, sans-serif" font-size="27">solutions like yours, scores their intent, and drafts outreach.</text>
+  <rect x="555" y="633" width="182" height="58" rx="29" fill="#FFFFFF"/>
+  <text x="590" y="670" fill="#0A0A0A" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Open dashboard</text>
+  <rect x="760" y="633" width="238" height="58" rx="29" fill="#111111" stroke="#333333"/>
+  <text x="806" y="670" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Sign in to get started</text>
+  <rect x="202" y="788" width="360" height="132" rx="18" fill="#111111" stroke="#282828"/>
+  <rect x="238" y="818" width="48" height="48" rx="12" fill="#FFFFFF"/>
+  <text x="306" y="851" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800">Source leads</text>
+  <rect x="620" y="788" width="360" height="132" rx="18" fill="#111111" stroke="#282828"/>
+  <rect x="656" y="818" width="48" height="48" rx="12" fill="#FFFFFF"/>
+  <text x="724" y="851" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800">Score intent</text>
+  <rect x="1038" y="788" width="360" height="132" rx="18" fill="#111111" stroke="#282828"/>
+  <rect x="1074" y="818" width="48" height="48" rx="12" fill="#FFFFFF"/>
+  <text x="1142" y="851" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800">Draft outreach</text>
+</svg>

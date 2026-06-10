@@ -1,0 +1,36 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1600" height="82" fill="#102A43"/>
+  <text x="64" y="52" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800">IoT Network Anomaly Detection</text>
+  <rect x="1252" y="22" width="250" height="38" rx="19" fill="#DCFCE7"/>
+  <circle cx="1281" cy="41" r="7" fill="#16A34A"/>
+  <text x="1302" y="47" fill="#166534" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Model status: active</text>
+  <text x="88" y="146" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="900">Device flow analysis</text>
+  <text x="88" y="186" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="22">Three-stage ML pipeline over CIC-IoT-2022 features</text>
+  <rect x="88" y="236" width="342" height="144" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="124" y="286" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="18">Stage 1</text>
+  <text x="124" y="326" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900">Category</text>
+  <text x="124" y="356" fill="#16A34A" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Random Forest</text>
+  <rect x="462" y="236" width="342" height="144" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="498" y="286" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="18">Stage 2</text>
+  <text x="498" y="326" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900">Identity</text>
+  <text x="498" y="356" fill="#2563EB" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Device model</text>
+  <rect x="836" y="236" width="342" height="144" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="872" y="286" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="18">Stage 3</text>
+  <text x="872" y="326" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900">Anomaly</text>
+  <text x="872" y="356" fill="#DC2626" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Isolation Forest</text>
+  <rect x="1210" y="236" width="302" height="144" rx="18" fill="#0F172A"/>
+  <text x="1246" y="286" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="18">Features</text>
+  <text x="1246" y="328" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="900">16 + 3</text>
+  <text x="1246" y="358" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="18">engineered signals</text>
+  <rect x="88" y="430" width="1424" height="360" rx="22" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <line x1="148" y1="728" x2="1450" y2="728" stroke="#CBD5E1" stroke-width="2"/>
+  <line x1="148" y1="484" x2="148" y2="728" stroke="#CBD5E1" stroke-width="2"/>
+  <polyline points="148,686 270,650 392,666 514,590 636,612 758,535 880,552 1002,490 1124,515 1246,464 1368,482 1450,450" fill="none" stroke="#2563EB" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="148,706 270,696 392,692 514,686 636,694 758,680 880,675 1002,670 1124,666 1246,660 1368,662 1450,656" fill="none" stroke="#16A34A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1002" cy="490" r="14" fill="#DC2626" stroke="#FFFFFF" stroke-width="5"/>
+  <circle cx="1246" cy="464" r="14" fill="#DC2626" stroke="#FFFFFF" stroke-width="5"/>
+  <rect x="1080" y="612" width="334" height="82" rx="16" fill="#FEF2F2" stroke="#FCA5A5"/>
+  <text x="1112" y="647" fill="#991B1B" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">Anomaly flagged</text>
+  <text x="1112" y="674" fill="#7F1D1D" font-family="Inter, Arial, sans-serif" font-size="16">Behavior drift detected for device flow</text>
+</svg>

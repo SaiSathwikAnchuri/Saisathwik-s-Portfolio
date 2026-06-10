@@ -1,18 +1,17 @@
-import { Github, Instagram, Twitter, Linkedin, ExternalLink } from 'lucide-react';
+import { Github, Instagram, Linkedin, ExternalLink, Code2 } from 'lucide-react';
 
 const Footer = () => {
   const socialLinks = [
     { name: 'GitHub', url: 'https://github.com/SaiSathwikAnchuri', icon: Github },
-    { name: 'Instagram', url: 'https://www.instagram.com/saisathwik_14/', icon: Instagram },
-    { name: 'Twitter', url: 'https://twitter.com/your_username', icon: Twitter },
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/saisathwik-anchuri-604b85292/', icon: Linkedin },
-    { name: 'Codepen', url: 'https://codepen.io/ANCHURI-SAI-SATHWIK', icon: ExternalLink }
+    { name: 'LeetCode', url: 'https://leetcode.com/u/saisathwik1414/', icon: Code2 },
+    { name: 'Instagram', url: 'https://www.instagram.com/saisathwik_14/', icon: Instagram },
+    { name: 'Coding Profiles', url: 'https://linktr.ee/Saisathwik1414', icon: ExternalLink }
   ];
 
   return (
     <footer className="py-8 px-6 lg:px-12 text-center">
       <div className="max-w-6xl mx-auto">
-        {/* Social links */}
         <div className="flex justify-center space-x-6 mb-6">
           {socialLinks.map(({ name, url, icon: Icon }) => (
             <a
@@ -28,7 +27,6 @@ const Footer = () => {
           ))}
         </div>
 
-        {/* Email and built info */}
         <div className="space-y-2">
           <a
             href="mailto:saisathwik1402@gmail.com"
@@ -38,7 +36,7 @@ const Footer = () => {
           </a>
 
           <p className="font-mono text-xs text-light-slate">
-           © 2025 Saisathwik Anchuri. Crafted with ❤️ and cutting-edge technology.
+            Built by Saisathwik Anchuri with React, TypeScript, and Tailwind CSS.
           </p>
         </div>
       </div>

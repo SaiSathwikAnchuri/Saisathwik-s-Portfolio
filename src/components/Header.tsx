@@ -1,15 +1,18 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
+import { Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const controlNavbar = () => {
       if (typeof window !== 'undefined') {
         if (window.scrollY > lastScrollY && window.scrollY > 100) {
           setIsVisible(false);
+          setIsMenuOpen(false);
         } else {
           setIsVisible(true);
         }
@@ -32,6 +35,10 @@ const Header = () => {
     { name: 'Contact', href: '#contact' },
   ];
 
+  const handleNavClick = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <header
       className={`fixed top-0 z-50 w-full h-nav transition-all duration-300 ${
@@ -39,14 +46,12 @@ const Header = () => {
       }`}
     >
       <div className="px-6 lg:px-12 h-full flex items-center justify-between bg-navy/80 backdrop-blur-sm">
-        {/* Logo */}
         <div className="flex-shrink-0">
-          <a href="/" className="text-green font-mono text-xl font-semibold">
+          <a href="/" className="text-green font-mono text-xl font-semibold" onClick={handleNavClick}>
             SAISATHWIK
           </a>
         </div>
 
-        {/* Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
           {navItems.map((item, index) => (
             <a
@@ -58,23 +63,51 @@ const Header = () => {
               <span className="text-green text-xs">0{index + 1}.</span> {item.name}
             </a>
           ))}
-          <Button 
-  variant="outline" 
-  className="ml-4 border-green text-green hover:bg-green-tint"
-  onClick={() => window.location.href = "/sai-anchuri-resume.pdf"}
->
-  Resume
-</Button>
-
+          <Button
+            variant="outline"
+            className="ml-4 border-green text-green hover:bg-green-tint"
+            onClick={() => window.open('/sai-anchuri-resume.pdf', '_blank')}
+          >
+            Resume
+          </Button>
         </nav>
 
-        {/* Mobile menu button */}
-        <button className="md:hidden w-6 h-6 flex flex-col justify-center items-center space-y-1">
-          <span className="w-6 h-0.5 bg-green transition-all"></span>
-          <span className="w-6 h-0.5 bg-green transition-all"></span>
-          <span className="w-6 h-0.5 bg-green transition-all"></span>
+        <button
+          className="md:hidden w-10 h-10 flex items-center justify-center text-green"
+          aria-label="Toggle navigation"
+          aria-expanded={isMenuOpen}
+          onClick={() => setIsMenuOpen((open) => !open)}
+        >
+          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
+
+      {isMenuOpen && (
+        <div className="md:hidden bg-navy/95 backdrop-blur-sm border-t border-lightest-navy px-6 py-6 shadow-lg">
+          <nav className="flex flex-col gap-5">
+            {navItems.map((item, index) => (
+              <a
+                key={item.name}
+                href={item.href}
+                onClick={handleNavClick}
+                className="font-mono text-sm text-lightest-slate hover:text-green transition-colors duration-300"
+              >
+                <span className="text-green text-xs">0{index + 1}.</span> {item.name}
+              </a>
+            ))}
+            <Button
+              variant="outline"
+              className="border-green text-green hover:bg-green-tint w-full"
+              onClick={() => {
+                setIsMenuOpen(false);
+                window.open('/sai-anchuri-resume.pdf', '_blank');
+              }}
+            >
+              Resume
+            </Button>
+          </nav>
+        </div>
+      )}
     </header>
   );
 };

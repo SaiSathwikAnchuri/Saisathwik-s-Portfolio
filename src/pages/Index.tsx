@@ -7,6 +7,7 @@ import Work from '@/components/Work';
 import Contact from '@/components/Contact';
 import SocialLinks from '@/components/SocialLinks';
 import Footer from '@/components/Footer';
+import ScrollProgress from '@/components/ScrollProgress';
 
 const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -15,7 +16,7 @@ const Index = () => {
     const timer = setTimeout(() => {
       setIsLoading(false);
       document.body.classList.remove('hidden');
-    }, 1000);
+    }, 700);
     return () => clearTimeout(timer);
   }, []);
 
@@ -29,6 +30,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-navy text-slate">
+      <ScrollProgress />
       <Header />
       <main className="pt-nav">
         <Hero />
@@ -37,8 +39,8 @@ const Index = () => {
         <Work />
         <Contact />
       </main>
-      <SocialLinks /> {/* ⬅️ Now outside <main> */}
-      <Footer />       {/* ⬅️ Now outside <main> */}
+      <SocialLinks />
+      <Footer />
     </div>
   );
 };
